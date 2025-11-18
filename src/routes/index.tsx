@@ -1,11 +1,10 @@
-import { Title } from '@solidjs/meta'
+import { Container } from 'styled-system/jsx'
 import { Button } from '~/components/ui/button'
 
 export default function Home() {
   return (
-    <main>
-      <Title>Hello World</Title>
-      <Button>Park UI</Button>
-    </main>
+    <Container py="8">
+      <Button colorPalette="amber">Park UI</Button>
+    </Container>
   )
 }
