@@ -1,4 +1,4 @@
-import { toastAnatomy } from '@ark-ui/solid/toast'
+import { toastAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const toast = defineSlotRecipe({

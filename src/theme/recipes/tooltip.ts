@@ -1,4 +1,4 @@
-import { tooltipAnatomy } from '@ark-ui/solid/tooltip'
+import { tooltipAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const tooltip = defineSlotRecipe({

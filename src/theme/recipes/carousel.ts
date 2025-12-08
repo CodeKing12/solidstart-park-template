@@ -1,4 +1,4 @@
-import { carouselAnatomy } from '@ark-ui/solid/carousel'
+import { carouselAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const carousel = defineSlotRecipe({

@@ -1,4 +1,4 @@
-import { fieldsetAnatomy } from '@ark-ui/solid/fieldset'
+import { fieldsetAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const fieldset = defineSlotRecipe({

@@ -1,4 +1,4 @@
-import { segmentGroupAnatomy } from '@ark-ui/solid/segment-group'
+import { segmentGroupAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const segmentGroup = defineSlotRecipe({

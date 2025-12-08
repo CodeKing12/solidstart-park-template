@@ -1,4 +1,4 @@
-import { tabsAnatomy } from '@ark-ui/solid/tabs'
+import { tabsAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const tabs = defineSlotRecipe({

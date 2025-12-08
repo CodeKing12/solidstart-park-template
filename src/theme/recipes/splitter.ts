@@ -1,4 +1,4 @@
-import { splitterAnatomy } from '@ark-ui/solid/splitter'
+import { splitterAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const splitter = defineSlotRecipe({

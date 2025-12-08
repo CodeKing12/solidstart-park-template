@@ -4,7 +4,7 @@ import { Button } from '~/components/ui/button'
 export default function Home() {
   return (
     <Container py="8">
-      <Button colorPalette="amber">Park UI</Button>
+      <Button colorPalette="red">Park UI</Button>
     </Container>
   )
 }

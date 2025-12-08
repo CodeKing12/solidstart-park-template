@@ -1,4 +1,4 @@
-import { radioGroupAnatomy } from '@ark-ui/solid/radio-group'
+import { radioGroupAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const radioGroup = defineSlotRecipe({

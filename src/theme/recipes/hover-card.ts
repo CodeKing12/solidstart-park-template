@@ -1,4 +1,4 @@
-import { hoverCardAnatomy } from '@ark-ui/solid/hover-card'
+import { hoverCardAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const hoverCard = defineSlotRecipe({

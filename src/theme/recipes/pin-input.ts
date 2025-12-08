@@ -1,4 +1,4 @@
-import { pinInputAnatomy } from '@ark-ui/solid/pin-input'
+import { pinInputAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 import { input } from './input'
 

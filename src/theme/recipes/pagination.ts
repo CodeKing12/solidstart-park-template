@@ -1,4 +1,4 @@
-import { paginationAnatomy } from '@ark-ui/solid/pagination'
+import { paginationAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const pagination = defineSlotRecipe({

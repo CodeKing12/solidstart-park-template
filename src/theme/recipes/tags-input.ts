@@ -1,4 +1,4 @@
-import { tagsInputAnatomy } from '@ark-ui/solid/tags-input'
+import { tagsInputAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const tagsInput = defineSlotRecipe({

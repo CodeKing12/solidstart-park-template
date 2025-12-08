@@ -1,4 +1,4 @@
-import { checkboxAnatomy } from '@ark-ui/solid/checkbox'
+import { checkboxAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const checkbox = defineSlotRecipe({

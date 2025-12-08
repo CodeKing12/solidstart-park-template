@@ -1,4 +1,4 @@
-import { comboboxAnatomy } from '@ark-ui/solid/combobox'
+import { comboboxAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 import { input } from './input'
 

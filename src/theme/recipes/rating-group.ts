@@ -1,4 +1,4 @@
-import { ratingGroupAnatomy } from '@ark-ui/solid/rating-group/'
+import { ratingGroupAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const ratingGroup = defineSlotRecipe({

@@ -1,4 +1,4 @@
-import { sliderAnatomy } from '@ark-ui/solid/slider'
+import { sliderAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const slider = defineSlotRecipe({

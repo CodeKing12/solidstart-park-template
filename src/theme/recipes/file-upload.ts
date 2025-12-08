@@ -1,4 +1,4 @@
-import { fileUploadAnatomy } from '@ark-ui/solid/file-upload'
+import { fileUploadAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 
 export const fileUpload = defineSlotRecipe({

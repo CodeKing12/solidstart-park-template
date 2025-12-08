@@ -1,4 +1,4 @@
-import { numberInputAnatomy } from '@ark-ui/solid/number-input'
+import { numberInputAnatomy } from '@ark-ui/solid/anatomy'
 import { defineSlotRecipe } from '@pandacss/dev'
 import { input } from './input'
 
