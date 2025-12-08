@@ -8,6 +8,11 @@
     "start": "vinxi start",
     "version": "vinxi version"
   },
+  "pnpm": {
+    "overrides": {
+      "package-manager-detector": "0.2.8"
+    }
+  },
   "dependencies": {
     "@ark-ui/solid": "5.28.0",
     "@solidjs/meta": "0.29.4",
