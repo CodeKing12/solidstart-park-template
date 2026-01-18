@@ -42,7 +42,17 @@ export default defineConfig({
       textStyles,
 
       tokens: {
-        colors,
+        colors: {
+          ...colors,
+          brand: {
+            lightGreen: { value: '#26D16D' },
+            darkGreen: { value: '#024550' },
+          },
+        },
+        fonts: {
+          body: { value: "'Figtree', sans-serif" },
+          heading: { value: "'Figtree', sans-serif" },
+        },
         durations,
         zIndex,
       },

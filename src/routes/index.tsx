@@ -1,10 +1,10 @@
-import { Container } from 'styled-system/jsx'
-import { Button } from '~/components/ui/button'
+import { Box } from 'styled-system/jsx'
+import { Hero } from '~/components/Hero'
 
 export default function Home() {
   return (
-    <Container py="8">
-      <Button colorPalette="red">Park UI</Button>
-    </Container>
+    <Box minH="100vh" bg="white">
+      <Hero />
+    </Box>
   )
 }

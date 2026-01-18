@@ -3,14 +3,20 @@ import { Router } from '@solidjs/router'
 import { FileRoutes } from '@solidjs/start/router'
 import { Suspense } from 'solid-js'
 import './app.css'
+import { Navbar } from './components/Navbar'
 
 export default function App() {
   return (
     <Router
       root={(props) => (
         <MetaProvider>
-          <Title>Park UI Solid Starter</Title>
-          <Suspense>{props.children}</Suspense>
+          <Title>Shebah Events - Turning Every Moment Into a Magical Celebration</Title>
+          <Box display="flex" flexDirection="column" minHeight="100vh">
+             <Navbar />
+             <main style={{ flex: 1 }}>
+                <Suspense>{props.children}</Suspense>
+             </main>
+          </Box>
         </MetaProvider>
       )}
     >
@@ -18,3 +24,5 @@ export default function App() {
     </Router>
   )
 }
+
+import { Box } from 'styled-system/jsx'
