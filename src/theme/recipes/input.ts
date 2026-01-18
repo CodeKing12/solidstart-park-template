@@ -5,7 +5,7 @@ export const input = {
   jsx: ['Input', 'Field.Input'],
   base: {
     appearance: 'none',
-    borderRadius: 'l2',
+    // borderRadius: 'l2',
     height: 'var(--input-height)',
     minHeight: 'var(--input-height)',
     minW: 'var(--input-height)',
@@ -26,7 +26,7 @@ export const input = {
     variant: {
       outline: {
         borderWidth: '1px',
-        borderColor: 'gray.outline.border',
+        borderColor: 'brand.lightGreen',
         focusVisibleRing: 'inside',
         _invalid: {
           focusRingColor: 'error',
@@ -80,10 +80,10 @@ export const input = {
       '2xs': { textStyle: 'xs', px: '1.5', '--input-height': 'sizes.7' },
       xs: { textStyle: 'sm', px: '2', '--input-height': 'sizes.8' },
       sm: { textStyle: 'sm', px: '2.5', '--input-height': 'sizes.9' },
-      md: { textStyle: 'md', px: '3', '--input-height': 'sizes.10' },
-      lg: { textStyle: 'md', px: '3.5', '--input-height': 'sizes.11' },
-      xl: { textStyle: 'lg', px: '4', '--input-height': 'sizes.12' },
-      '2xl': { textStyle: '3xl', px: '4.5', '--input-height': 'sizes.16' },
+      md: { textStyle: 'md', px: '3', '--input-height': 'sizes.12' },
+      lg: { textStyle: 'md', px: '3.5', '--input-height': 'sizes.14' },
+      xl: { textStyle: 'lg', px: '4', '--input-height': 'sizes.16' },
+      '2xl': { textStyle: '3xl', px: '4.5', '--input-height': 'sizes.18' },
     },
   },
 } satisfies RecipeConfig

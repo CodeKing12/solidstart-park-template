@@ -4,6 +4,7 @@ import { Button } from '~/components/ui/button'
 import { Input } from '~/components/ui/input'
 import { Textarea } from '~/components/ui/textarea'
 import * as Checkbox from '~/components/ui/checkbox'
+import { Heading } from './ui/heading'
 
 export function Hero() {
   return (
@@ -18,16 +19,16 @@ export function Hero() {
       <Box
         position="absolute"
         inset="0"
-        bg="black/60"
+        bg="#041315/60"
         zIndex="0"
       />
 
       <Container position="relative" zIndex="1" maxW="8xl">
-        <Grid columns={{ base: 1, lg: 2 }} gap={{ base: '12', lg: '24' }} alignItems="center">
+        <Grid columns={{ base: 1, lg: 2 }} gap={{ base: '12', lg: '24' }} alignItems="center" justifyContent="space-between">
           
           {/* Left Column: Content */}
-          <Stack gap="8">
-            <Box>
+          <Stack h="full" gap="8" justifyContent="space-between">
+            <Stack gap="4">
                 <Box
                     display="inline-block"
                     bg="white/10"
@@ -38,51 +39,56 @@ export function Hero() {
                     fontSize="sm"
                     fontWeight="medium"
                     borderRadius="sm"
+                    w="fit"
                 >
                 Market research and analysis
                 </Box>
-            </Box>
 
-            <h1 class={css({ 
-                fontSize: { base: '4xl', md: '5xl', lg: '6xl' }, 
-                fontWeight: 'bold', 
-                color: 'white', 
-                lineHeight: 'tight' 
-            })}>
-              Empowering your <br />
-              business potential
-            </h1>
+                <Heading class={css({ 
+                    fontSize: { base: '4xl', md: '5xl', lg: '6xl' }, 
+                    fontWeight: 'medium', 
+                    color: 'white', 
+                    lineHeight: '1.2',
+                    letterSpacing: "-0.027em" 
+                })}>
+                  Empowering your <br />
+                  business potential
+                </Heading>
+            </Stack>
 
-            <p class={css({ 
-                fontSize: 'lg', 
-                color: 'gray.200', 
-                maxW: 'xl' 
-            })}>
-              Unlock your business's potential with our tailored services. Let's achieve success together.
-            </p>
+            <Stack gap="8">
+              <p class={css({ 
+                  fontSize: 'lg', 
+                  color: 'gray.200', 
+                  maxW: 'xl' 
+              })}>
+                Unlock your business's potential with our tailored services. Let's achieve success together.
+              </p>
 
-            <Box>
-                <Button 
-                    bg="white" 
-                    color="black" 
-                    px="6"
-                    h="12"
-                    fontWeight="600"
-                    _hover={{ bg: 'gray.100' }}
-                >
-                Learn more <ArrowRightIcon />
-                </Button>
-            </Box>
+              <Box>
+                  <Button 
+                      bg="white" 
+                      color="black" 
+                      px="6"
+                      h="12"
+                      fontWeight="600"
+                      _hover={{ bg: 'gray.100' }}
+                  >
+                  Learn more <ArrowRightIcon />
+                  </Button>
+              </Box>
+            </Stack>
+
           </Stack>
 
           {/* Right Column: Form */}
-          <Box bg="white" p={{ base: '6', md: '8' }} borderRadius="lg" shadow="xl">
+          <Box bg="white" p={{ base: '10', md: '12' }} shadow="xl" maxW="lg" ml="auto">
             <Stack gap="6">
                 <Box>
-                    <h2 class={css({ fontSize: '2xl', fontWeight: 'semibold', color: 'brand.darkGreen', mb: '2' })}>
-                        Book free consultation
+                    <h2 class={css({ fontSize: '3xl', fontWeight: 'semibold', color: 'brand.darkGreen', mb: '3' })}>
+                        Book a free consultation
                     </h2>
-                    <p class={css({ color: 'gray.600', fontSize: 'sm', lineHeight: 'relaxed' })}>
+                    <p class={css({ color: 'gray.700', lineHeight: 'relaxed' })}>
                         Fill out the form below, and we'll arrange a consultation at a time most suitable for you.
                     </p>
                 </Box>
@@ -110,7 +116,7 @@ export function Hero() {
                         placeholder="Anything else you would like us to know?" 
                         borderColor="gray.300" 
                         _placeholder={{ color: 'gray.500' }}
-                        rows={4}
+                        rows={5}
                         resize="none"
                     />
                 </Stack>

@@ -4,7 +4,7 @@ export const textarea = defineRecipe({
   className: 'textarea',
   base: {
     appearance: 'none',
-    borderRadius: 'l2',
+    // borderRadius: 'l2',
     minWidth: '0',
     outline: '0',
     position: 'relative',
